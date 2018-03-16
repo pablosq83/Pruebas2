@@ -1,0 +1,47 @@
+<!--Este ejercicio simula un sistema elemental de inscripción
+Autor: Pablo Sulbarán (psulbaran@cenditel.gob.ve)
+Fecha: 16-03-2018 -->
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title> Ejercicio de uso de formularios en html </title>
+    </head>
+    <body>
+        <div id="header" align="CENTER">
+            <h1> Subsistema de inscripción </h1> 
+        </div>
+        <br>
+        <div id="body">
+            <p align="center"> Bienvenidos al subsistema de incripción. Versión de prueba
+            </p>
+            <br>
+            <form action="#" method="get" id="search">
+                <p>
+                <label for="nombres"> Nombres: </label>
+                <input type="text" name="nombres" id="nombres">
+                <br>
+                <label for="apellidos"> Apellidos: </label>
+                <input type="text" name="apellidos" id="apellidos">
+                <br>
+                <label for="cedula"> Cedula: </label>
+                <select name="Nac">
+                    <option>V</option>
+                     <option>E</option>
+                </select>
+                <input type="text" name="cedula" id="cedula">
+                <br>
+                <label for="email"> Correo electrónico: </label>
+                <input type="text" name="email" id="email">
+                <br>
+                <label for="nivel"> Nivel de estudios: </label>
+                <select name="nivel">
+                    <option>Pregrado</option>
+                     <option>Postgrado</option>
+                </select>
+                <br>
+                <input type="submit" value="Enviar">
+                <input type="reset" value="Borrar">
+                </p>
+            </form>
+    </body>
+</html>
