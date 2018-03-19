@@ -1,0 +1,58 @@
+<!-- Formulario básico con elementos usados frecuentemente (selecciones, botones de verificación, etc)
+Autor: Pablo Sulbarán (psulbaran@cenditel.gob.ve)
+Fecha: 19-03-2018 -->
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title> Formularios en html </title>
+    </head>
+    <body>
+        <div id="header" align="CENTER">
+            <h1> Bienvenidos al subsistema de recepción de datos </h1> 
+        </div>
+        <br>
+        <div id="body">
+            <p align="center"> Formulario de registro
+            </p>
+            <br>
+            <form action= "#" method= "get" id= search>
+                <p>
+                <label for="nombres"> Nombres: </label>
+                <input type="text" name="nombres" id="nombres">
+                <br>
+                <label for="apellidos"> Apellidos: </label>
+                <input type="text" name="apellidos" id="apellidos">
+                <br>
+                <label for= "sexo"> Sexo </label>
+                <br>
+                <input type= "radio" name="sex" value= "Masculino"> Masculino
+                <input type= "radio" name="sex" value= "Femenino"> Femenino
+                <br>
+                <label for= "correo"> Correo electrónico </label>
+                <input type= "text" name="correo" id="correo">
+                <br>
+                <label for="poblacion"> Población:</label> 
+                <select name="poblacion">
+                    <option> Merida </option>
+                    <option> El Vigia </option>
+                </select>
+                <br>
+                <label for= "descripcion"> Descripción </label>
+                <br>
+                <textarea name="descripcion" id="descripcion" rows="10" cols="100"> </textarea>
+                <br>
+                <input type="checkbox" name="acepto" id="acepto" checked="checked" /> 
+                <label for= "condiciones"> Declaro haber leido y aceptar las condiciones generales del programa y la normativa sobre protección de datos</label>
+                <br>
+                <input type="checkbox" name="info" id="info" checked="checked" /> 
+                <label for="info"> Deseo recibir información sobre novedades y ofertas</label>
+                <br>
+                <input type="submit" value="Enviar" />
+            </form>
+        <div id="footer">
+            <marquee><b>Creado por Pablo Sulbarán </b></marquee>
+        </div>
+    </body>
+</html>
+
+
